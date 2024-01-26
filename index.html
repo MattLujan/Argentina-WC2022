@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Argentina Campeón 2022</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://kit.fontawesome.com/6c5ef8e3b4.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
         <nav>
             <a href="index.html">
-                <img src="./imagenes/escudo-afa-3estrellas.jpg" alt="Escudo de AFA con 3 estrellas">
+                <img src="./imagenes/afa.png" alt="Escudo de AFA con 3 estrellas">
             </a>
             <ul>
                 <li>
@@ -33,48 +37,55 @@
 
     <main>
         <h1>ARGENTINA CAMPEÓN DEL MUNDO</h1>
-        <fig>
-            <img src="./imagenes/banner-arg-con-la-copa.jpg" alt="Argentina alzando la copa del mundo!">
-            <figcaption>Messi levantando por primera vez la copa del mundo</figcaption>
-        </fig>
-        <p>Esta página surge como un homenaje a estos "héroes" que nos trajeron una gran alegría. La tercera copa mundial a nuestro país.        
-        Resúmenes en video, fotos, fichas de partidos y muchas cosas mas...
+        <figure>
+            <img src="./imagenes/banner-arg-con-la-copa.jpg" alt="Argentina alzando la copa del mundo!" class="banner-arg">
+            <figcaption class="messi-levantado-copa">Messi levantando por primera vez la copa del mundo</figcaption>
+        </figure>
+        <p class="epigrafe-messi-con-la-copa">En este emocionante torneo de la Copa Mundial de la FIFA 2022, la selección Argentina ha demostrado su habilidad, determinación y espíritu de equipo, llevándolos a la gloriosa victoria como campeones mundiales. <br>   Desde los partidos clasificatorios hasta la gran final, los jugadores argentinos han dejado huella con su talento excepcional y su pasión por el fútbol. La nación entera se une para celebrar este logro histórico, un momento que quedará grabado en la memoria de todos los fanáticos del fútbol argentino. <br>
+        ¡Felicidades a nuestros héroes en la cancha, al cuerpo técnico y a todos los apasionados seguidores que han apoyado incondicionalmente! Este triunfo es un testimonio del talento y la dedicación que define a Argentina en el mundo del fútbol.
+        Que esta victoria sea recordada como un hito en la rica historia del fútbol argentino. ¡Vamos Argentina!
         </p>
-        <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/pfZ7dfJoS_g?si=_EALvre4zgjef8fg"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen>
-            </iframe>
-            <h2>Resumen del mundial de Argentina en Qatar 2022</h2>
-            
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/DbgoOU55vlE?si=TswxPEAB3ps8TU_F"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen>
-            </iframe>
-            <h2>Canción de la hinchada Argentina: "Muchachos"</h2>
-        </div>
+
+        <section class="iframe-container">
+            <article>
+                <iframe width="500" height="315" src="https://www.youtube.com/embed/pfZ7dfJoS_g?si=_EALvre4zgjef8fg"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+                </iframe>
+                <h2>Resumen del mundial de Argentina en Qatar 2022</figcaption>
+            </article>
+            <article>
+                <iframe width="500" height="315" src="https://www.youtube.com/embed/DbgoOU55vlE?si=TswxPEAB3ps8TU_F"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+                </iframe>
+                <h2>Canción de la hinchada Argentina: "Muchachos"</figcaption>
+            </article>
+        </section>
+        
+        <hr>
     </main>
 
     <footer>
-        <div>
+        <div class="redes-sociales">
             <h3>Síguenos en</h3>
             <ul>
-                <li><a href="https://www.facebook.com">Facebook</a></li>
-                <li><a href="https://www.instagram.com">Instagram</a></li>
-                <li><a href="https://www.youtube.com">YouTube</a></li>
+                <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook" style="color: #0925fb;font-size: 30px;" aria-hidden="true"></i></li></a>
+                <li><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram" style="color: #b02183; font-size: 35px;" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube" style="color: #fc0303; font-size: 30px"></i></a></li>
             </ul>
 
         </div>
-        <div>
-            <img src="./imagenes/logo-fifa-qatar2022.jpg" alt="Logo Fifa World Cup Qatar 2022">
+        <div class="redes-sociales">
+            <a href="https://www.fifa.com/fifaplus/es/tournaments/mens/worldcup/qatar2022" target="_blank"><img src="./imagenes/logo-fifa-qatar2022.jpg" alt="Logo Fifa World Cup Qatar 2022"></a>
         </div>
-        <div>
+        <div class="redes-sociales">
             <p>© Enero 2024. Todos los derechos reservados</p>
         </div>
     </footer>
-    
+
 </body>
 
 </html>
+
+<figure></figure>

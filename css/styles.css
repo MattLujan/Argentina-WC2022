@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  width: 100vw;
+  background-color: rgb(136, 203, 245);
+}
+
+nav a {
+  text-decoration: none;
+  height: 110px;
+  color: white;
+}
+
+h1 {
+  font-size: xxx-large;
+}
+
+header img {
+  width: 125px;
+  height: 110px;
+  object-fit: cover;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+nav li {
+  margin: 5vh;
+  font-size: 2.1rem;
+}
+
+h1 {
+  text-align: center;
+  margin: 5px;
+}
+
+.banner-arg {
+  width: 100vw;
+}
+
+.messi-levantado-copa {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.epigrafe-messi-con-la-copa {
+  font-size: 1.7rem;
+  margin: 10px;
+  padding: 5px;
+}
+
+.iframe-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+article h2 {
+  font-weight: normal;
+  text-align: center;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  height: 110px;
+}
+
+footer .redes-sociales {
+  margin: 20px;
+  padding: 10px;
+}
+
+.redes-sociales h3 {
+  margin: 5px;
+  text-align: center;
+}
+
+.redes-sociales li {
+  margin-right: 15px;
+}
+
+.redes-sociales img {
+  width: 125px;
+  height: 100px;
+}
+
+.redes-sociales p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
