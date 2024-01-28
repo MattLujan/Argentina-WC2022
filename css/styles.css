@@ -4,16 +4,30 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Mailand";
+  src: url("../Fonts/Mailand.otf");
+}
+
+/* -------- HEADER -------- */
+
 nav {
   display: flex;
   width: 100vw;
   background-color: rgb(136, 203, 245);
+  position: fixed;
+  top: 0;
+  
 }
 
 nav a {
   text-decoration: none;
   height: 110px;
   color: white;
+}
+
+nav a:hover{
+  color: rgb(37, 53, 232);
 }
 
 h1 {
@@ -43,7 +57,9 @@ h1 {
   margin: 5px;
 }
 
-.banner-arg {
+/* ======== INDEX ======== */
+
+.banner-arg-con-la-copa {
   width: 100vw;
 }
 
@@ -56,20 +72,26 @@ h1 {
   font-size: 1.7rem;
   margin: 10px;
   padding: 5px;
+  word-spacing: 7px;
+  font-family: "Mailand";
+  
 }
 
 .iframe-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
+  margin-top: 40px;
 }
 
 article h2 {
   font-weight: normal;
   text-align: center;
-  margin-top: 7px;
-  margin-bottom: 7px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
+
+/* -------- FOOTER -------- */
 
 footer {
   display: flex;
@@ -77,11 +99,11 @@ footer {
   justify-content: space-around;
   width: 100vw;
   height: 110px;
+  background-color: palegoldenrod;
 }
 
 footer .redes-sociales {
-  margin: 20px;
-  padding: 10px;
+  margin: 40px;
 }
 
 .redes-sociales h3 {
@@ -95,7 +117,7 @@ footer .redes-sociales {
 
 .redes-sociales img {
   width: 125px;
-  height: 100px;
+  margin-left: 150px;
 }
 
 .redes-sociales p {
