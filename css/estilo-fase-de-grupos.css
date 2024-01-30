@@ -39,12 +39,13 @@ section h1 {
 
 section h2 {
     margin: 5px;
+    margin-left: 35px;
 }
 
 .parrafo-fase-de-grupos {
     font-size: 1.3rem;
     margin-bottom: 15px;
-    margin-left: 5px;
+    margin-left: 35px;
 }
 
 .como-llegaba-argentina-al-mundial {
@@ -74,7 +75,7 @@ section h2 {
 .grupo-accesible {
     display: flex;
     flex-direction: column;
-    margin: 25px;
+    margin: 10px 25px 15px 25px;
 }
 
 .grupo-accesible h3 {
@@ -93,6 +94,7 @@ section h2 {
 .grupo-accesible li {
     list-style-type: none;
     font-size: large;
+    text-align: justify;
 }
 
 .foto-banderas {
@@ -104,6 +106,132 @@ section h2 {
     padding: 10px;
 }
 
+.partidos-fase-de-grupos {
+    display: flex;
+    margin-left: 17px;
+    width: 1200px;
+    flex-flow: row wrap 
+}
+
+.partidos-fase-de-grupos img {
+    width: 110px;
+}
+
+.partidos-fase-de-grupos h3 {
+    font-size: 1.3rem;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.partidos-fase-de-grupos p {
+    font-size: 1.2rem;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.partidos-en-numeros {
+    width: 435px;
+    border: solid #2B448C;
+    
+}
+
+.escudos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8px;
+    height: 120px;
+    align-items: center;
+}
+
+.resultados {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 6px;
+    height: 83px;
+}
+
+.resultados p {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.partidos-en-numeros h4 {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.goles-arabia{
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+    margin-right: 45px;
+    justify-content: space-between;
+    
+}
+
+.goles-mx {
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+}
+
+.goles-mx p {
+    margin-top:2.5px;
+    margin-bottom: 2.5px;
+}
+
+.goles-pol {
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+}
+
+.goles-pol p {
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+    margin-left: 220px;
+}
+
+.iframes {
+    margin-top: 15px;
+}
+
+.arg-arabia p {
+    margin-bottom: 28px;
+}
+
+#gol-en-columna {
+    display: block;
+}
+
+.arg-mex {
+    margin-left: 10px;
+}
+
+.arg-pol {
+    margin-left: 10px;
+}
+
+.titulo-grupo-C {
+    margin-top: 10px;
+    margin-left: 398px;
+}
+
+.tabla-de-posiciones {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 15px;
+    justify-content: space-evenly;
+}
+
+div h3 {
+    margin-bottom: 10px;
+}
+
+div h4 {
+    margin-bottom: 10px;
+}
 
 
 /* -----------FOOTER --------------------*/
